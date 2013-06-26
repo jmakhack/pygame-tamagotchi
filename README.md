@@ -1,0 +1,4 @@
+tamagatchi
+==========
+
+Simplistic Tamagatchi clone
