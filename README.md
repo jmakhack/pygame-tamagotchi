@@ -1,4 +1,4 @@
-tamagatchi
+Tamagotchi
 ==========
 
-Simplistic Tamagatchi clone
+Simplistic Tamogatchi clone
