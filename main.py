@@ -23,7 +23,7 @@ fpsClock = pygame.time.Clock()
 screen = pygame.display.set_mode((350, 270), 0, 32)
 
 #sets title of window
-pygame.display.set_caption("Tamagotchi")
+pygame.display.set_caption('Tamagotchi')
 
 #retrieve miscellaneous images
 screenIcon = loadImage('images/pet/idleL1.png', True)
@@ -32,7 +32,8 @@ screenIcon = loadImage('images/pet/idleL1.png', True)
 pygame.display.set_icon(screenIcon)
 
 #retrieve theme music
-loadMusic('music/theme.mp3')
+pygame.mixer.init()
+pygame.mixer.music.load('./music/theme.ogg')
 
 #plays background music indefinitely starting at 0 sec
 pygame.mixer.music.play(-1, 0)
